@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "database-664f5"
+  },
+  "targets": {
+    "database-664f5": {
+      "hosting": {
+        "chocolux": [
+          "chocolux"
+        ]
+      }
+    }
+  }
+}
