@@ -50,6 +50,7 @@ function App() {
           <div className="detail-box" style={{}}>
             <h2>Give us your Mail</h2>
             <h4>We will reach out to you with our offers</h4>
+            <h4>{loading && 'Saving...'}</h4>
             {showText ? (<div>Thanks we will contact you soon!</div>) :(<form
               onSubmit={handleSubmit}
               style={{
